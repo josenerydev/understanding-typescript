@@ -1,1 +1,3 @@
-console.log('Your code goes here!');
+const userName = 'Maximilian';
+
+console.log(userName);

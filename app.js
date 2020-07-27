@@ -1,1 +1,2 @@
-console.log('Your code goes here!');
+var userName = 'Maximilian';
+console.log(userName);
