@@ -12,11 +12,10 @@ age = 29;
 //   let isOld = true;
 // }
 // console.log(isOld);
-const add = (a, b) => a + b;
-console.log(add(2, 5));
+const add = (a, b = 1) => a + b;
 const printOutput = output => console.log(output);
 const button = document.querySelector('button');
 if (button) {
     button.addEventListener('click', event => console.log(event));
 }
-printOutput(add(5, 2));
+printOutput(add(5));
