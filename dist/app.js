@@ -3,7 +3,7 @@ var Department = /** @class */ (function () {
     function Department(id, name) {
         this.id = id;
         this.name = name;
-        // private id: string;
+        // private readonly id: string;
         // private name: string;
         this.employees = [];
         // this.id = id;
@@ -14,6 +14,7 @@ var Department = /** @class */ (function () {
     };
     Department.prototype.addEmployee = function (employee) {
         // validation etc
+        // this.id = 'd2';
         this.employees.push(employee);
     };
     Department.prototype.printEmployeeInformation = function () {
