@@ -1,2 +1,6 @@
 "use strict";
-console.log('Your code goes here!');
+const e1 = {
+    name: 'Max',
+    privileges: ['create-server'],
+    startDate: new Date()
+};
