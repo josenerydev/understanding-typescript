@@ -1,2 +1,11 @@
 "use strict";
-console.log('Your code goes here!');
+const names = [];
+// names[0].split(' ');
+const promise = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        resolve(10);
+    }, 2000);
+});
+promise.then(data => {
+    // data.split(' ');
+});
