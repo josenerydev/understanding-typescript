@@ -1,6 +1,0 @@
-POST http://localhost:3000/todos HTTP/1.1
-Content-Type: application/json
-
-{
-  "text":"Learn React in one week"
-}
