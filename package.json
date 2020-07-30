@@ -20,6 +20,7 @@
   "homepage": "https://github.com/josenerydev/understanding-typescript#readme",
   "devDependencies": {
     "@types/lodash": "^4.14.158",
+    "class-transformer": "^0.3.1",
     "lite-server": "^2.5.4",
     "ts-loader": "^8.0.1",
     "typescript": "^3.9.7",
@@ -28,6 +29,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "lodash": "^4.17.19"
+    "lodash": "^4.17.19",
+    "reflect-metadata": "^0.1.13"
   }
 }
