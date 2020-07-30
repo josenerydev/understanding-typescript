@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server"
+    "start": "webpack-dev-server",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,15 @@
   },
   "homepage": "https://github.com/josenerydev/understanding-typescript#readme",
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "@types/lodash": "^4.14.158",
+    "lite-server": "^2.5.4",
+    "ts-loader": "^8.0.1",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.19"
   }
 }
